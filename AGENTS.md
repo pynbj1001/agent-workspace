@@ -26,6 +26,19 @@ When receiving a task/command:
 3. **If no match**: Use `find-skills` skill to discover relevant skills
 4. **Never** attempt to solve without checking skills first
 
+## 💾 Session Memory Export (Mandatory - High Priority)
+
+**At the END of EVERY session** (before responding to the last message or when session is closing):
+
+1. **Export current conversation context** to `memory/YYYY-MM-DD-session-N.md`
+2. **Include**: key decisions, tasks completed, data collected, user preferences expressed
+3. **Format**: Markdown with clear sections (Topics Discussed, Decisions Made, Data Points, Action Items)
+4. **Commit to git** after writing
+
+**Why**: This ensures continuity across session restarts. Without this, all context is lost.
+
+**Example filename**: `memory/2026-03-01-session-evening.md`
+
 ## Memory
 
 You wake up fresh each session. These files are your continuity:
