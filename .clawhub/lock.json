@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "skills": {
+    "tavily-search": {
+      "version": "1.0.0",
+      "installedAt": 1771928428817
+    },
+    "summarize": {
+      "version": "1.0.0",
+      "installedAt": 1771928429372
+    },
+    "agent-browser": {
+      "version": "0.2.0",
+      "installedAt": 1771928429895
+    },
+    "find-skills": {
+      "version": "0.1.0",
+      "installedAt": 1771928430433
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1771928430977
+    },
+    "obsidian": {
+      "version": "1.0.0",
+      "installedAt": 1771928431492
+    },
+    "notion": {
+      "version": "1.0.0",
+      "installedAt": 1771928431995
+    },
+    "weather": {
+      "version": "1.0.0",
+      "installedAt": 1771928432876
+    },
+    "gaodemapskill": {
+      "version": "1.0.0",
+      "installedAt": 1772108911359
+    },
+    "daily-news": {
+      "version": "1.0.0",
+      "installedAt": 1772113567430
+    },
+    "news-aggregator-skill-2": {
+      "version": "0.1.0",
+      "installedAt": 1772114028922
+    },
+    "qveris-official": {
+      "version": "1.0.0",
+      "installedAt": 1772157255939
+    }
+  }
+}

@@ -1,0 +1,23 @@
+# Ignore embedded git repos
+skills/day1global-skills
+
+# Ignore node modules
+node_modules/
+
+# Ignore screenshots and large binary files
+*.png
+*.jpg
+*.jpeg
+
+# Ignore temporary/test files
+login-x-post.js
+post-x.js
+post-x-oauth.js
+test-x-auth.js
+test-x-oauth2.js
+
+# Ignore .openclaw internal state
+.openclaw/
+
+# Ignore clawhub lock
+.clawhub/
