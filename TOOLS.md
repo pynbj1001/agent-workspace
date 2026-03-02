@@ -48,6 +48,7 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ### Twitter / X API
 
+- **Bearer Token:** `AAAAAAAAAAAAAAAAAAAAANh07QEAAAAAHaO4B650hrzsZ7Ida0a2uko2rew%3DDn5mkHGDzdis70dArZjnq972jei9szglgx1nNfT4Hf44fJNtv1`
 - **API Key:** `4bGRYY2l9Fa9FdZg0QWhJabOk`
 - **API Secret:** `zN55A8Z6aoZUOm4o2Zb7Rz2TU24nBNbAlyBqrYsSwbz5R5RYpV`
 - **Access Token:** `133163257-ISXxDX16pE4NGtd1Z0sMKLWpOBe8jSLDAyuOtbRh`
