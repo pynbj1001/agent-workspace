@@ -1,7 +1,0 @@
-{
-  "wechat": {
-    "appid": "wx273238c9a1a43203",
-    "appsecret": "76b1ff35d65c3dd147107a9ac7cf9d90",
-    "token_cache_file": ".wechat_token_cache"
-  }
-}

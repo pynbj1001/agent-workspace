@@ -60,6 +60,10 @@
     "cctv-news-fetcher": {
       "version": "1.0.0",
       "installedAt": 1772418016678
+    },
+    "wechat-publisher": {
+      "version": "0.1.0",
+      "installedAt": 1772432057247
     }
   }
 }
