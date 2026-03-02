@@ -46,6 +46,16 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
   - 配置方式：Gateway 环境变量或 openclaw configure
   - 重要性：⚠️ **关键凭证** - Day1Global Skills 重度依赖
 
+### Twitter / X API
+
+- **API Key:** `4bGRYY2l9Fa9FdZg0QWhJabOk`
+- **API Secret:** `zN55A8Z6aoZUOm4o2Zb7Rz2TU24nBNbAlyBqrYsSwbz5R5RYpV`
+- **Access Token:** `133163257-ISXxDX16pE4NGtd1Z0sMKLWpOBe8jSLDAyuOtbRh`
+- **Access Token Secret:** `ufb77sQrOHCOLmjrD9FHtnG2jh3ay7m8Du7OqyjhaZwUT`
+- **用途**：x-twitter 技能发帖、搜索、互动
+- **技能路径**：`/root/.openclaw/workspace/skills/x-twitter/`
+- **重要性**：⚠️ **关键凭证** - 社交媒体发布
+
 ---
 
 ## 📈 Day1Global Skills - 股票/投资分析（优先使用）

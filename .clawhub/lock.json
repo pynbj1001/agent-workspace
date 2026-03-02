@@ -64,6 +64,10 @@
     "wechat-publisher": {
       "version": "0.1.0",
       "installedAt": 1772432057247
+    },
+    "x-twitter": {
+      "version": "2.3.1",
+      "installedAt": 1772455562837
     }
   }
 }
