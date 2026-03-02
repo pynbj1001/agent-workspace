@@ -110,6 +110,215 @@ Don't ask permission. Just do it.
 
 **Why**: 这解决了 AI 上下文窗口有限的问题，通过文件持久化工作记忆，确保任务连续性和知识积累。
 
+---
+
+## 🔄 Skill 协作系统 (Skill Orchestration)
+
+**核心理念**：planning-with-files 是"任务操作系统"，其他技能是运行在其上的"应用程序"。
+
+### 技能协作矩阵
+
+| 技能 | 输入 | 输出 | 更新文件 | 使用频率 |
+|------|------|------|---------|---------|
+| **buy-side-news-analyst** | 新闻 | 分析结果 | findings.md | ⭐⭐⭐⭐⭐ |
+| **finance-news-miner** | 新闻源 | 板块数据 | findings.md | ⭐⭐⭐⭐ |
+| **baoyu-post-to-wechat** | findings.md | 公众号文章 | progress.md | ⭐⭐⭐⭐⭐ |
+| **news-summary** | RSS | 新闻摘要 | findings.md | ⭐⭐⭐ |
+| **cctv-news-fetcher** | 央视 | 新闻稿 | findings.md | ⭐⭐ |
+| **weather** | 地点 | 天气数据 | findings.md (临时) | ⭐ |
+
+### 标准协作工作流
+
+#### 工作流 1：新闻分析 → 公众号发布
+
+```
+1. 【planning-with-files】创建规划文件
+   → task_plan.md: 定义任务阶段
+   → findings.md: 初始化结构
+   → progress.md: 记录开始时间
+
+2. 【news-summary】抓取国际新闻
+   → findings.md: "伊朗袭击海湾国家，油价涨 8%"
+
+3. 【buy-side-news-analyst】深度分析
+   → findings.md: "历史对比：2019 年、2022 年类似事件"
+   → findings.md: "受益方：石油开采、油服"
+   → findings.md: "受损方：航空、化工"
+   → findings.md: "投资建议：做多 XLE，做空航空股"
+
+4. 【finance-news-miner】挖掘热门板块和个股
+   → findings.md: "热门板块：石油能源 (热度 6.0)"
+   → findings.md: "强势个股：特斯拉、比亚迪"
+
+5. 【baoyu-post-to-wechat】撰写并发布文章
+   → 读取 findings.md 所有内容
+   → 生成 Markdown 文章
+   → 发布到公众号草稿箱
+   → progress.md: "发布成功，media_id: xxx"
+
+6. 【planning-with-files】完成任务
+   → task_plan.md: 所有阶段标记为 complete
+   → progress.md: 记录完成时间
+   → memory/YYYY-MM-DD.md: 压缩会话记录
+```
+
+#### 工作流 2：技能安装与配置
+
+```
+1. 【planning-with-files】创建安装计划
+   → task_plan.md: Phase 1 下载，Phase 2 配置，Phase 3 测试
+   → findings.md: 初始化
+
+2. 【git/clawhub】下载技能
+   → progress.md: "git clone 成功"
+   → findings.md: "技能路径：/root/.openclaw/workspace/skills/xxx"
+
+3. 【npm/pip】安装依赖
+   → progress.md: "依赖安装成功"
+   → findings.md: "依赖列表：xxx, yyy, zzz"
+
+4. 【配置工具】配置凭证
+   → findings.md: "API 凭证已配置（见 TOOLS.md）"
+   → progress.md: "配置测试通过"
+
+5. 【planning-with-files】完成安装
+   → task_plan.md: 所有阶段 complete
+   → findings.md 关键信息 → TOOLS.md
+   → progress.md → memory/YYYY-MM-DD.md
+```
+
+#### 工作流 3：投资分析与建议
+
+```
+1. 【planning-with-files】创建分析计划
+   → task_plan.md: 定义分析框架（5 层分析）
+   
+2. 【news-summary / web_search】收集信息
+   → findings.md: "新闻 1: xxx"
+   → findings.md: "新闻 2: yyy"
+   
+3. 【buy-side-news-analyst】深度分析
+   → findings.md: "L1 事实层：..."
+   → findings.md: "L2 历史对比：..."
+   → findings.md: "L3 产业链影响：..."
+   → findings.md: "L4 市场预期：..."
+   → findings.md: "L5 投资建议：..."
+   
+4. 【生成报告】
+   → 基于 findings.md 生成完整报告
+   → progress.md: "报告已生成"
+```
+
+### 文件更新规则
+
+#### findings.md 更新时机
+
+| 触发条件 | 更新内容 | 示例 |
+|---------|---------|------|
+| 每 2 次工具调用 | 关键发现 | "搜索结果显示..." |
+| 发现重要数据 | 数据记录 | "油价上涨 8%" |
+| 形成结论 | Decisions 部分 | "投资建议：做多 XLE" |
+| 读取重要信息 | Resources 部分 | "URL: https://..." |
+
+#### task_plan.md 更新时机
+
+| 触发条件 | 更新内容 | 示例 |
+|---------|---------|------|
+| 阶段开始 | 状态→in_progress | "Phase 2: 进行中" |
+| 阶段完成 | 状态→complete | "Phase 1: 已完成" |
+| 遇到错误 | Errors 部分 | "FileNotFoundError" |
+| 重大决策 | Decisions 部分 | "使用 API 方式发布" |
+
+#### progress.md 更新时机
+
+| 触发条件 | 更新内容 | 示例 |
+|---------|---------|------|
+| session 开始 | 时间戳 | "Started: 2026-03-02 14:00" |
+| 完成阶段 | 行动记录 | "Phase 1 complete" |
+| 创建/修改文件 | 文件列表 | "task_plan.md (created)" |
+| 测试结果 | Test Results | "API 测试通过 ✓" |
+| session 结束 | 完成总结 | "Task complete" |
+
+### 文件管理规范
+
+#### 文件位置
+
+```
+/root/.openclaw/workspace/
+├── task_plan.md          # 当前任务（活跃）
+├── findings.md           # 当前发现（活跃）
+├── progress.md           # 当前进展（活跃）
+├── memory/
+│   └── YYYY-MM-DD.md    # 会话记忆（永久）
+├── archive/
+│   └── tasks/           # 历史任务（归档）
+└── TOOLS.md             # 永久配置
+```
+
+#### 文件生命周期
+
+```
+创建 → 使用 → 归档 → 清理
+ ↓      ↓      ↓      ↓
+任务   活跃   完成   删除
+开始   更新   归档   或保留
+```
+
+**归档规则**：
+- 任务完成 → 移动到 `archive/tasks/`
+- 超过 7 天 → 压缩
+- 重要发现 → 提取到 `TOOLS.md` 或 `MEMORY.md`
+
+#### 与 memory 系统的关系
+
+| 维度 | planning-with-files | memory 系统 |
+|------|-------------------|------------|
+| **目的** | 任务管理 | 会话连续性 |
+| **时间粒度** | 按任务 | 按天 |
+| **持久性** | 任务完成后归档 | 永久保留 |
+| **内容** | 结构化任务跟踪 | 聊天记录压缩 |
+| **更新时机** | 每个阶段完成后 | session 结束时 |
+
+**协作方式**：
+```
+session 结束：
+1. progress.md 记录任务视角的进展
+2. memory/YYYY-MM-DD.md 记录会话视角的聊天
+3. task_plan.md 标记阶段状态
+4. git 提交所有文件
+```
+
+### 高频使用检查清单
+
+**收到任务后**：
+- [ ] 任务是否需要 3+ 步骤？
+- [ ] 是否需要 5+ 次工具调用？
+- [ ] 是否跨 session？
+- [ ] → 是：创建 task_plan.md + findings.md + progress.md
+
+**执行任务中**：
+- [ ] 每 2 次工具调用后更新 findings.md？
+- [ ] 阶段完成后更新 task_plan.md 状态？
+- [ ] 遇到错误立即记录？
+- [ ] 重大决策前阅读 task_plan.md？
+
+**session 结束前**：
+- [ ] 更新 progress.md 记录完成状态？
+- [ ] 压缩到 memory/YYYY-MM-DD.md？
+- [ ] git 提交所有文件？
+- [ ] 任务完成→归档到 archive/tasks/？
+
+### 预期效果
+
+| 指标 | 当前 | 使用 1 周后 | 使用 1 月后 |
+|------|------|-----------|-----------|
+| 任务完成率 | ~70% | ~85% | ~95% |
+| 错误重复率 | ~30% | ~15% | ~5% |
+| session 恢复时间 | ~5min | ~2min | ~1min |
+| 知识保留率 | ~40% | ~70% | ~90% |
+
+**Why**: 通过文件化工作记忆和技能协作，实现任务连续性、错误预防、知识积累。
+
 ## 💾 Session Memory Export (Mandatory - Highest Priority)
 
 **At the END of EVERY session** (before responding to the last message or when session is closing):
