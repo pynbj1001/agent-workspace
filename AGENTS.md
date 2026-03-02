@@ -334,6 +334,10 @@ session 结束：
 3. **Format**: Markdown with clear sections
 4. **Commit to git** after writing
 
+**Git Backup Priority**:
+- **Primary**: `tencentclaw` → https://github.com/pynbj1001/Tencentclaw
+- **Secondary**: `origin` → https://github.com/pynbj1001/agent-workspace
+
 **Core Principle**: Before any `/new` or session refresh, ALWAYS save chat history to memory files. This is non-negotiable.
 
 **Why**: Session restarts wipe all context. Memory files are your only continuity.
