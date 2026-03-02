@@ -51,6 +51,65 @@ Don't ask permission. Just do it.
 
 **Result**: 4 new skills created today. Future tasks can reuse them.
 
+## 📝 Planning with Files (Mandatory for Complex Tasks)
+
+**核心原则：文件化工作记忆**
+
+```
+上下文窗口 = 内存（易失，有限）
+文件系统 = 磁盘（持久，无限）
+
+→ 重要信息都写到磁盘
+```
+
+### 三个核心文件
+
+| 文件 | 用途 | 更新时间 |
+|------|------|---------|
+| `task_plan.md` | 任务计划、阶段跟踪 | 每个阶段完成后 |
+| `findings.md` | 研究发现、重要信息 | 每次发现后 |
+| `progress.md` | 会话日志、测试结果 | 整个会话过程中 |
+
+### 使用规则
+
+1. **先创建计划** - 复杂任务必须先有 `task_plan.md`
+2. **2 行动规则** - 每 2 次浏览/搜索后，立即保存关键发现到文件
+3. **决策前阅读** - 重大决策前阅读计划文件
+4. **行动后更新** - 完成阶段后更新状态
+5. **记录所有错误** - 每个错误都记录到计划文件
+6. **不重复失败** - 跟踪尝试，改变方法
+
+### 适用场景
+
+**必须使用：**
+- 多步骤任务（3 步以上）
+- 研究任务
+- 构建/创建项目
+- 需要多次工具调用的任务
+- 需要组织的任何工作
+
+**可以跳过：**
+- 简单问题
+- 单文件编辑
+- 快速查询
+
+### 文件位置
+
+- **模板**：`/root/.openclaw/workspace/skills/planning-with-files/templates/`
+- **你的文件**：`/root/.openclaw/workspace/` 或项目根目录
+
+### 5 问重启测试
+
+| 问题 | 答案来源 |
+|------|---------|
+| 我在哪？ | task_plan.md 当前阶段 |
+| 要去哪？ | task_plan.md 剩余阶段 |
+| 目标是什么？ | task_plan.md 目标陈述 |
+| 学到了什么？ | findings.md |
+| 做了什么？ | progress.md |
+
+**Why**: 这解决了 AI 上下文窗口有限的问题，通过文件持久化工作记忆，确保任务连续性和知识积累。
+
 ## 💾 Session Memory Export (Mandatory - Highest Priority)
 
 **At the END of EVERY session** (before responding to the last message or when session is closing):
