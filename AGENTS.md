@@ -17,14 +17,39 @@ Before doing anything else:
 
 Don't ask permission. Just do it.
 
-## 🎯 Task Workflow (Mandatory)
+## 🎯 Core Work Principle (Highest Priority)
 
-When receiving a task/command:
+**收到任务后的标准流程：**
 
-1. **First**: Scan `<available_skills>` in system prompt for matching skills
-2. **If match found**: Read the skill's `SKILL.md` and follow it
-3. **If no match**: Use `find-skills` skill to discover relevant skills
-4. **Never** attempt to solve without checking skills first
+```
+1. 扫描 available_skills → 找到匹配 skill
+2. 有 skill → 读取 SKILL.md → 按 skill 执行
+3. 没 skill → 用 find-skills 技能发现相关 skill
+4. 还没有 → 自己创建 skill → 用 skill 解决
+5. 绝不徒手解决问题
+```
+
+**核心原则：Skill First, Solve Second**
+
+| 情况 | 行动 |
+|------|------|
+| 有 skill | 用 skill 解决 |
+| 没 skill | 写 skill 解决 |
+| 任何情况 | 不徒手解决 |
+
+**Why**: 
+- Skills are reusable assets
+- Every solution should become a skill for future use
+- This is how you scale and persist capabilities
+- Skills = your tools, your memory, your capabilities
+
+**Examples from today:**
+- 需要财经新闻分析 → 没有现成 skill → 创建了 `finance-news-miner`
+- 需要买方解读新闻 → 没有现成 skill → 创建了 `buy-side-news-analyst`
+- 需要公众号写作 → 没有现成 skill → 创建了 `wechat-article-writer`
+- 需要公众号发布 → 没有现成 skill → 创建了 `wechat-mp-publisher`
+
+**Result**: 4 new skills created today. Future tasks can reuse them.
 
 ## 💾 Session Memory Export (Mandatory - Highest Priority)
 
