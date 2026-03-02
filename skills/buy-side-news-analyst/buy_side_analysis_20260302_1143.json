@@ -1,0 +1,91 @@
+{
+  "news_summary": "特朗普下令政府停止使用 Anthropic AI。The move announced on social media comes after a standoff between Anthropic",
+  "key_facts": [
+    "涉及实体：Anthropic, Department, The, Defense, Defense Secretary"
+  ],
+  "historical_context": "📚 历史参照：AI 行业政策冲击\n   • 2022-10: 美国限制对华 AI 芯片出口\n     → NVDA 短期下跌 15%，3 个月后创新高\n     → 启示：政策冲击提供买入机会，若基本面未变\n   • 2023-06: 欧盟 AI 法案草案\n     → 欧洲科技股分化，合规成本上升\n     → 启示：监管框架明确后，龙头受益集中度提升",
+  "industry_impact": {
+    "beneficiaries": [
+      "合规 AI 厂商",
+      "开源模型",
+      "本地部署方案"
+    ],
+    "losers": [
+      "依赖政府合同的 AI 公司",
+      "高估值 AI 应用"
+    ],
+    "supply_chain_effects": [
+      "政策不确定性 → 企业 AI 支出可能延迟"
+    ],
+    "second_order_effects": [
+      "开源模型关注度提升 → 商业化压力增大"
+    ]
+  },
+  "market_expectations": {
+    "consensus": "需要结合市场情绪判断",
+    "expectation_gap": "需要进一步判断市场定价程度",
+    "mispriced_risks": []
+  },
+  "investment_insights": [
+    {
+      "thesis": "做多受益方：合规 AI 厂商, 开源模型, 本地部署方案",
+      "catalysts": [
+        "事件持续发酵",
+        "业绩验证"
+      ],
+      "timeframe": "1-3 个月",
+      "confidence": "Medium",
+      "risks": [
+        "事件快速平息",
+        "政策干预"
+      ]
+    },
+    {
+      "thesis": "规避/做空受损方",
+      "catalysts": [
+        "财报季业绩下修"
+      ],
+      "timeframe": "1-2 个季度",
+      "confidence": "Medium",
+      "risks": [
+        "市场情绪反转",
+        "对冲措施有效"
+      ]
+    }
+  ],
+  "actionable_ideas": {
+    "long": [
+      "合规 AI 龙头",
+      "开源模型公司",
+      "AI 安全公司"
+    ],
+    "short": [
+      "高估值 AI 应用",
+      "政府合同依赖型 AI"
+    ],
+    "hedge": [
+      "科技股多空对冲"
+    ],
+    "avoid": [
+      "未盈利 AI 初创"
+    ],
+    "watch": [
+      "政策进展",
+      "企业 AI 支出数据",
+      "开源模型进展"
+    ]
+  },
+  "conviction_level": "Medium",
+  "key_metrics_to_watch": [
+    "相关新闻后续发展",
+    "市场反应（价格/成交量）",
+    "机构持仓变化",
+    "行业数据验证"
+  ],
+  "risks": [
+    "信息不完整风险",
+    "市场情绪反转风险",
+    "黑天鹅事件风险"
+  ],
+  "timeframe": "短期 (1-4 周) / 中期 (1-3 月) / 长期 (3 月+)"
+}

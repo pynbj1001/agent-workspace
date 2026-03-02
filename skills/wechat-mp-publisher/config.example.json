@@ -1,0 +1,7 @@
+{
+  "wechat": {
+    "appid": "wx_your_appid_here",
+    "appsecret": "your_appsecret_here",
+    "token_cache_file": ".wechat_token_cache"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "analysis_date": "2026-03-02 10:54",
+  "time_window": "7 days",
+  "total_news": 30,
+  "hot_sectors": [
+    {
+      "name": "消费电子",
+      "mention_count": 22,
+      "positive_mentions": 3,
+      "heat_score": 14.0,
+      "trend": "neutral",
+      "key_news": [
+        {
+          "title": "Iran may 'lash out harder' as Khamenei's death puts Tehran on a war footing, leaving the world bracing for what's next",
+          "link": "https://www.cnbc.com/2026/03/01/us-israel-attacks-strikes-iran-retaliate-china-russia-allies.html",
+          "date": "2026-03-01",
+          "source": "CNBC"
+        },
+        {
+          "title": "Dow futures drop 500 points as oil prices spike following U.S. attack on Iran: Live updates",
+          "link": "https://www.cnbc.com/2026/03/01/stock-market-today-live-update.html",
+          "date": "2026-03-02",
+          "source": "CNBC"
+        },
+        {
+          "title": "U.S. crude oil jumps more than 8%, topping $72 a barrel on fears of Iran supply disruption",
+          "link": "https://www.cnbc.com/2026/03/01/crude-oil-futures-iran.html",
+          "date": "2026-03-01",
+          "source": "CNBC"
+        }
+      ]
+    },
+    {
+      "name": "人工智能",
+      "mention_count": 13,
+      "positive_mentions": 2,
+      "heat_score": 8.5,
+      "trend": "neutral",
+      "key_news": [
+        {
+          "title": "Investors beware: These stocks are the most at risk from AI disruption",
+          "link": "https://www.cnbc.com/2026/03/01/investors-beware-these-stocks-are-the-most-at-risk-from-ai-disruption.html",
+          "date": "2026-03-01",
+          "source": "CNBC"
+        },
+        {
+          "title": "Asia airline stocks drop while energy shares rise as Iran conflict escalates",
+          "link": "https://www.cnbc.com/2026/03/02/asia-markets-live-trump-iran-oil-prices-nikkei-hang-seng-us-israel-strikes-oil.html",
+          "date": "2026-03-02",
+          "source": "CNBC"
+        },
+        {
+          "title": "Iran's Ali Khamenei, who based iron rule on fiery hostility to the U.S. and Israel, dies at 86",
+          "link": "https://www.cnbc.com/2026/02/28/iran-supreme-leader-ali-khamenei-dies-at-86.html",
+          "date": "2026-03-01",
+          "source": "CNBC"
+        }
+      ]
+    },
+    {
+      "name": "电动汽车",
+      "mention_count": 8,
+      "positive_mentions": 1,
+      "heat_score": 5.0,
+      "trend": "neutral",
+      "key_news": [
+        {
+          "title": "Investors beware: These stocks are the most at risk from AI disruption",
+          "link": "https://www.cnbc.com/2026/03/01/investors-beware-these-stocks-are-the-most-at-risk-from-ai-disruption.html",
+          "date": "2026-03-01",
+          "source": "CNBC"
+        },
+        {
+          "title": "Iran after Khamenei: What's next and what it means for the country?",
+          "link": "https://www.cnbc.com/2026/03/01/iran-khamenei-dead-us-israel-strike-trump-netanyahu.html",
+          "date": "2026-03-01",
+          "source": "CNBC"
+        },
+        {
+          "title": "Top Wall Street analysts recommend these dividend stocks for enhanced returns",
+          "link": "https://www.cnbc.com/2026/03/01/top-wall-street-analysts-recommend-these-dividend-stocks-for-enhanced-returns.html",
+          "date": "2026-03-01",
+          "source": "CNBC"
+        }
+      ]
+    }
+  ],
+  "top_stocks": []
+}

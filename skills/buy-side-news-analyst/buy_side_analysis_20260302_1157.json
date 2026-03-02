@@ -1,0 +1,99 @@
+{
+  "news_summary": "特斯拉股价创新高，交付量超预期。电动车龙头继续领涨新能源板块。比亚迪海外扩张加速，中国电动车企全球化进程提速。",
+  "key_facts": [
+    "需要从新闻中提取关键事实"
+  ],
+  "historical_context": "暂未找到直接历史参照",
+  "industry_impact": {
+    "beneficiaries": [
+      "石油开采",
+      "油服",
+      "页岩油",
+      "整车龙头",
+      "电池供应商",
+      "充电设施"
+    ],
+    "losers": [
+      "炼化",
+      "化工",
+      "航空",
+      "传统燃油车",
+      "零部件供应商转型慢"
+    ],
+    "supply_chain_effects": [
+      "油价上涨 → 上游开采利润增加 → 下游成本承压",
+      "交付量超预期 → 电池需求增加 → 锂资源受益"
+    ],
+    "second_order_effects": [
+      "通胀预期上升 → 央行货币政策受限",
+      "中国车企出海加速 → 全球竞争格局重塑"
+    ]
+  },
+  "market_expectations": {
+    "consensus": "需要结合市场情绪判断",
+    "expectation_gap": "事件可能超出市场共识，存在预期差机会",
+    "mispriced_risks": []
+  },
+  "investment_insights": [
+    {
+      "thesis": "做多受益方：石油开采, 油服, 页岩油",
+      "catalysts": [
+        "事件持续发酵",
+        "业绩验证"
+      ],
+      "timeframe": "1-3 个月",
+      "confidence": "Medium",
+      "risks": [
+        "事件快速平息",
+        "政策干预"
+      ]
+    },
+    {
+      "thesis": "规避/做空受损方",
+      "catalysts": [
+        "财报季业绩下修"
+      ],
+      "timeframe": "1-2 个季度",
+      "confidence": "Medium",
+      "risks": [
+        "市场情绪反转",
+        "对冲措施有效"
+      ]
+    }
+  ],
+  "actionable_ideas": {
+    "long": [
+      "石油 ETF (XLE)",
+      "油服龙头",
+      "页岩油企业"
+    ],
+    "short": [
+      "航空股",
+      "高负债化工企业"
+    ],
+    "hedge": [
+      "能源通胀挂钩债券"
+    ],
+    "avoid": [
+      "燃油密集型行业"
+    ],
+    "watch": [
+      "EIA 库存数据",
+      "OPEC 产量",
+      "地缘局势"
+    ]
+  },
+  "conviction_level": "Medium",
+  "key_metrics_to_watch": [
+    "相关新闻后续发展",
+    "市场反应（价格/成交量）",
+    "机构持仓变化",
+    "行业数据验证"
+  ],
+  "risks": [
+    "信息不完整风险",
+    "市场情绪反转风险",
+    "黑天鹅事件风险"
+  ],
+  "timeframe": "短期 (1-4 周) / 中期 (1-3 月) / 长期 (3 月+)"
+}

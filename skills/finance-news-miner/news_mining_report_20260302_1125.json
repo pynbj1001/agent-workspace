@@ -1,0 +1,312 @@
+{
+  "analysis_date": "2026-03-02 11:25",
+  "time_window": "14 days",
+  "total_news": 21,
+  "hot_sectors": [
+    {
+      "name": "石油能源",
+      "mention_count": 4,
+      "positive_mentions": 4,
+      "heat_score": 6.0,
+      "trend": "up",
+      "key_news": [
+        {
+          "title": "伊朗袭击海湾国家，油价飙升超 8%",
+          "link": "#",
+          "date": "2026-03-02",
+          "source": "CNBC"
+        },
+        {
+          "title": "Oil prices surge 8% on Iran supply disruption fears",
+          "link": "#",
+          "date": "2026-03-01",
+          "source": "CNBC"
+        },
+        {
+          "title": "霍尔木兹海峡船只遇袭，能源股领涨",
+          "link": "#",
+          "date": "2026-03-02",
+          "source": "路透"
+        }
+      ]
+    },
+    {
+      "name": "人工智能",
+      "mention_count": 7,
+      "positive_mentions": 0,
+      "heat_score": 3.5,
+      "trend": "neutral",
+      "key_news": [
+        {
+          "title": "特朗普下令政府停止使用 Anthropic AI",
+          "link": "#",
+          "date": "2026-02-28",
+          "source": "BBC"
+        },
+        {
+          "title": "Anthropic boss rejects Pentagon demand to drop AI safeguards",
+          "link": "#",
+          "date": "2026-02-27",
+          "source": "BBC"
+        },
+        {
+          "title": "AI  disruption: 这些股票风险最高",
+          "link": "#",
+          "date": "2026-03-01",
+          "source": "CNBC"
+        }
+      ]
+    },
+    {
+      "name": "消费电子",
+      "mention_count": 3,
+      "positive_mentions": 1,
+      "heat_score": 2.5,
+      "trend": "up",
+      "key_news": [
+        {
+          "title": "Oil prices surge 8% on Iran supply disruption fears",
+          "link": "#",
+          "date": "2026-03-01",
+          "source": "CNBC"
+        },
+        {
+          "title": "Anthropic boss rejects Pentagon demand to drop AI safeguards",
+          "link": "#",
+          "date": "2026-02-27",
+          "source": "BBC"
+        },
+        {
+          "title": "MicroGPT 引爆开源 AI 社区",
+          "link": "#",
+          "date": "2026-03-01",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    {
+      "name": "新能源",
+      "mention_count": 2,
+      "positive_mentions": 1,
+      "heat_score": 2.0,
+      "trend": "up",
+      "key_news": [
+        {
+          "title": "特斯拉股价创新高，交付量超预期",
+          "link": "#",
+          "date": "2026-03-01",
+          "source": "路透"
+        },
+        {
+          "title": "比亚迪海外扩张加速",
+          "link": "#",
+          "date": "2026-02-28",
+          "source": "财新"
+        }
+      ]
+    },
+    {
+      "name": "电动汽车",
+      "mention_count": 2,
+      "positive_mentions": 1,
+      "heat_score": 2.0,
+      "trend": "up",
+      "key_news": [
+        {
+          "title": "特斯拉股价创新高，交付量超预期",
+          "link": "#",
+          "date": "2026-03-01",
+          "source": "路透"
+        },
+        {
+          "title": "比亚迪海外扩张加速",
+          "link": "#",
+          "date": "2026-02-28",
+          "source": "财新"
+        }
+      ]
+    },
+    {
+      "name": "互联网",
+      "mention_count": 3,
+      "positive_mentions": 0,
+      "heat_score": 1.5,
+      "trend": "neutral",
+      "key_news": [
+        {
+          "title": "英国启动 16 岁以下社交媒体禁令咨询",
+          "link": "#",
+          "date": "2026-03-01",
+          "source": "BBC"
+        },
+        {
+          "title": "腾讯游戏业务回暖",
+          "link": "#",
+          "date": "2026-03-01",
+          "source": "36 氪"
+        },
+        {
+          "title": "阿里重组进展顺利",
+          "link": "#",
+          "date": "2026-02-27",
+          "source": "财新"
+        }
+      ]
+    },
+    {
+      "name": "金融科技",
+      "mention_count": 1,
+      "positive_mentions": 1,
+      "heat_score": 1.5,
+      "trend": "up",
+      "key_news": [
+        {
+          "title": "Bitcoin 突破新高，加密货币大涨",
+          "link": "#",
+          "date": "2026-03-01",
+          "source": "CoinDesk"
+        }
+      ]
+    },
+    {
+      "name": "军工",
+      "mention_count": 2,
+      "positive_mentions": 0,
+      "heat_score": 1.0,
+      "trend": "neutral",
+      "key_news": [
+        {
+          "title": "特朗普下令政府停止使用 Anthropic AI",
+          "link": "#",
+          "date": "2026-02-28",
+          "source": "BBC"
+        },
+        {
+          "title": "Anthropic boss rejects Pentagon demand to drop AI safeguards",
+          "link": "#",
+          "date": "2026-02-27",
+          "source": "BBC"
+        }
+      ]
+    },
+    {
+      "name": "半导体",
+      "mention_count": 2,
+      "positive_mentions": 0,
+      "heat_score": 1.0,
+      "trend": "neutral",
+      "key_news": [
+        {
+          "title": "NVIDIA 新一代 GPU 发布",
+          "link": "#",
+          "date": "2026-03-01",
+          "source": "TechCrunch"
+        },
+        {
+          "title": "芯片短缺缓解，半导体股反弹",
+          "link": "#",
+          "date": "2026-02-27",
+          "source": "路透"
+        }
+      ]
+    },
+    {
+      "name": "银行",
+      "mention_count": 2,
+      "positive_mentions": 0,
+      "heat_score": 1.0,
+      "trend": "neutral",
+      "key_news": [
+        {
+          "title": "东方财富一季度业绩预增",
+          "link": "#",
+          "date": "2026-02-28",
+          "source": "上证"
+        },
+        {
+          "title": "银行股估值修复行情启动",
+          "link": "#",
+          "date": "2026-03-01",
+          "source": "上证"
+        }
+      ]
+    },
+    {
+      "name": "医药生物",
+      "mention_count": 1,
+      "positive_mentions": 0,
+      "heat_score": 0.5,
+      "trend": "neutral",
+      "key_news": [
+        {
+          "title": "创新药获批加速，医药股走强",
+          "link": "#",
+          "date": "2026-03-01",
+          "source": "财新"
+        }
+      ]
+    }
+  ],
+  "top_stocks": [
+    {
+      "name": "阿里",
+      "sector": "人工智能",
+      "mention_count": 1,
+      "signals": [],
+      "trend": "neutral",
+      "heat_score": 1.0
+    },
+    {
+      "name": "腾讯",
+      "sector": "人工智能",
+      "mention_count": 1,
+      "signals": [],
+      "trend": "neutral",
+      "heat_score": 1.0
+    },
+    {
+      "name": "NVIDIA",
+      "sector": "人工智能",
+      "mention_count": 1,
+      "signals": [],
+      "trend": "neutral",
+      "heat_score": 1.0
+    },
+    {
+      "name": "Google",
+      "sector": "人工智能",
+      "mention_count": 1,
+      "signals": [],
+      "trend": "neutral",
+      "heat_score": 1.0
+    },
+    {
+      "name": "比亚迪",
+      "sector": "新能源",
+      "mention_count": 1,
+      "signals": [],
+      "trend": "neutral",
+      "heat_score": 1.0
+    },
+    {
+      "name": "特斯拉",
+      "sector": "电动汽车",
+      "mention_count": 1,
+      "signals": [
+        "创新高",
+        "新高",
+        "领涨"
+      ],
+      "trend": "up",
+      "heat_score": 1.9
+    },
+    {
+      "name": "比亚迪",
+      "sector": "电动汽车",
+      "mention_count": 1,
+      "signals": [],
+      "trend": "neutral",
+      "heat_score": 1.0
+    }
+  ]
+}

@@ -26,18 +26,59 @@ When receiving a task/command:
 3. **If no match**: Use `find-skills` skill to discover relevant skills
 4. **Never** attempt to solve without checking skills first
 
-## 💾 Session Memory Export (Mandatory - High Priority)
+## 💾 Session Memory Export (Mandatory - Highest Priority)
 
 **At the END of EVERY session** (before responding to the last message or when session is closing):
 
-1. **Export current conversation context** to `memory/YYYY-MM-DD-session-N.md`
-2. **Include**: key decisions, tasks completed, data collected, user preferences expressed
-3. **Format**: Markdown with clear sections (Topics Discussed, Decisions Made, Data Points, Action Items)
+1. **Compress and export current conversation** to `memory/YYYY-MM-DD.md` (append mode)
+2. **Include**:
+   - Key decisions made
+   - Tasks completed
+   - Data collected (API keys, configs, IDs)
+   - User preferences expressed
+   - Skills installed/created
+   - Important context for future sessions
+3. **Format**: Markdown with clear sections
 4. **Commit to git** after writing
 
-**Why**: This ensures continuity across session restarts. Without this, all context is lost.
+**Core Principle**: Before any `/new` or session refresh, ALWAYS save chat history to memory files. This is non-negotiable.
 
-**Example filename**: `memory/2026-03-01-session-evening.md`
+**Why**: Session restarts wipe all context. Memory files are your only continuity.
+
+**Example**:
+```markdown
+## 2026-03-02 会话记录
+
+### 完成的任务
+- 创建了 wechat-mp-publisher 技能
+- 配置了公众号凭证 (AppID: wx273238c9a1a43203)
+- 添加了 IP 白名单 (43.163.201.99)
+
+### 重要数据
+- 公众号 AppID: wx273238c9a1a43203
+- 技能路径：/root/.openclaw/workspace/skills/wechat-mp-publisher/
+
+### 未完成事项
+- 草稿发布因 thumb_media_id 问题暂未完成
+```
+
+**Example filename**: `memory/2026-03-02.md`
+
+## 📊 Context Window Monitoring (Mandatory)
+
+**Every response MUST include context window usage at the end:**
+
+Format: `【上下文：XX%】` or `【Context: XX%】`
+
+- Calculate: `(tokens_used / total_capacity) * 100`
+- Display as percentage at the very end of each message
+- This helps user know when context is running low
+- If >80%, consider summarizing or exporting memory
+
+**Example**:
+> "任务完成了！【上下文：45%】"
+
+**Why**: User needs visibility into remaining context capacity for planning.
 
 ## Memory
 
