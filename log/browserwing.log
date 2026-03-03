@@ -1,0 +1,8 @@
+{"level":"info","msg":"[Start] MCP server started","time":"2026-03-03 18:30:08"}
+{"level":"info","msg":"[loadMCPScripts] Loaded 0 MCP commands","time":"2026-03-03 18:30:08"}
+{"level":"info","msg":"[Start] Registered 21 executor tools","time":"2026-03-03 18:30:08"}
+{"level":"warning","msg":"[NewAgentManager] Failed to load LLM configuration: no available LLM configs (Please configure in LLM Management page)","time":"2026-03-03 18:30:08"}
+{"level":"info","msg":"[Info] Loaded 0 sessions from database","time":"2026-03-03 18:30:08"}
+{"level":"info","msg":"[startMCPWatcher] ✓ MCP command listener has started","time":"2026-03-03 18:30:08"}
+{"level":"info","msg":"[Stop] Agent manager stopped","time":"2026-03-03 18:30:37"}
+{"level":"info","msg":"[Stop] MCP server stopped","time":"2026-03-03 18:30:37"}

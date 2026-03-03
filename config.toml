@@ -1,0 +1,26 @@
+debug = false
+llms = []
+assets_dir = './data'
+
+[server]
+port = '8080'
+host = '0.0.0.0'
+mcp_host = ''
+mcp_port = ''
+
+[database]
+path = './data/browserwing.db'
+
+[browser]
+bin_path = ''
+user_data_dir = './chrome_user_data'
+
+[log]
+level = 'info'
+file = './log/browserwing.log'
+
+[auth]
+enabled = false
+app_key = 'default-secret-key-change-in-production'
+default_username = 'admin'
+default_password = 'admin123'
