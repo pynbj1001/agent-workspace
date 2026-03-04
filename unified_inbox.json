@@ -1,0 +1,22 @@
+[
+  {
+    "source_type": "rss",
+    "source_name": "BBC News",
+    "title": "Six US soldiers killed in Iranian strike on Kuwait base",
+    "content": "The US defence secretary confirms a US military base was hit by an Iranian missile on Sunday.",
+    "url": "https://www.bbc.com/news/articles/c4gq33ynl07o?at_medium=RSS&at_campaign=rss",
+    "id": "ced4c684ff77",
+    "fetched_at": "2026-03-03T18:52:59.434131",
+    "media_type": "text",
+    "media_url": null,
+    "score": 0,
+    "priority": "normal",
+    "category": "",
+    "tags": [],
+    "processed": false,
+    "digest_date": null,
+    "title_cn": null,
+    "content_cn": null,
+    "extra": {}
+  }
+]
