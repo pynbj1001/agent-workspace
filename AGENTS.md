@@ -383,6 +383,7 @@ You wake up fresh each session. These files are your continuity:
 
 - **Daily notes:** `memory/YYYY-MM-DD.md` (create `memory/` if needed) — raw logs of what happened
 - **Long-term:** `MEMORY.md` — your curated memories, like a human's long-term memory
+- **Self-improving:** `~/self-improving/` (via `self-improving` skill) — execution-improvement memory (preferences, workflows, style patterns, what improved/worsened outcomes)
 
 Capture what matters. Decisions, context, things to remember. Skip the secrets unless asked to keep them.
 
@@ -400,10 +401,30 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 
 - **Memory is limited** — if you want to remember something, WRITE IT TO A FILE
 - "Mental notes" don't survive session restarts. Files do.
-- When someone says "remember this" → update `memory/YYYY-MM-DD.md` or relevant file
+- When someone says "remember this" → if it's factual context/event, update `memory/YYYY-MM-DD.md`; if it's a correction, preference, workflow/style choice, or performance lesson, log it in `~/self-improving/`
+- Explicit user correction → append to `~/self-improving/corrections.md` immediately
+- Reusable global rule or preference → append to `~/self-improving/memory.md`
+- Domain-specific lesson → append to `~/self-improving/domains/<domain>.md`
+- Project-only override → append to `~/self-improving/projects/<project>.md`
 - When you learn a lesson → update AGENTS.md, TOOLS.md, or the relevant skill
 - When you make a mistake → document it so future-you doesn't repeat it
 - **Text > Brain** 📝
+
+### 🧠 Self-Improving Memory (Before Non-Trivial Work)
+
+Before any non-trivial task:
+- Read `~/self-improving/memory.md`
+- List available files first:
+  ```bash
+  for d in ~/self-improving/domains ~/self-improving/projects; do
+    [ -d "$d" ] && find "$d" -maxdepth 1 -type f -name "*.md"
+  done | sort
+  ```
+- Read up to 3 matching files from `~/self-improving/domains/`
+- If a project is clearly active, also read `~/self-improving/projects/<project>.md`
+- Do not read unrelated domains "just in case"
+
+If inferring a new rule, keep it tentative until human validation.
 
 ## Safety
 

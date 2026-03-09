@@ -3,27 +3,27 @@
   "skills": {
     "tavily-search": {
       "version": "1.0.0",
-      "installedAt": 1771928428817
+      "installedAt": 1773061749357
     },
     "summarize": {
       "version": "1.0.0",
-      "installedAt": 1771928429372
+      "installedAt": 1773061751434
     },
     "agent-browser": {
       "version": "0.2.0",
-      "installedAt": 1771928429895
+      "installedAt": 1773061753521
     },
     "find-skills": {
       "version": "0.1.0",
-      "installedAt": 1771928430433
+      "installedAt": 1773061757609
     },
     "github": {
       "version": "1.0.0",
-      "installedAt": 1771928430977
+      "installedAt": 1773061762542
     },
     "obsidian": {
       "version": "1.0.0",
-      "installedAt": 1771928431492
+      "installedAt": 1773061767068
     },
     "notion": {
       "version": "1.0.0",
@@ -31,7 +31,7 @@
     },
     "weather": {
       "version": "1.0.0",
-      "installedAt": 1771928432876
+      "installedAt": 1773061770994
     },
     "gaodemapskill": {
       "version": "1.0.0",
@@ -72,6 +72,18 @@
     "nano-banana-pro": {
       "version": "1.0.1",
       "installedAt": 1772520422991
+    },
+    "self-improving": {
+      "version": "1.2.10",
+      "installedAt": 1773066195800
+    },
+    "capability-evolver": {
+      "version": "1.27.3",
+      "installedAt": 1773066209293
+    },
+    "twitterapi-io": {
+      "version": "3.2.0",
+      "installedAt": 1773066404418
     }
   }
 }
