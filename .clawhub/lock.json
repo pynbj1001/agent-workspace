@@ -3,27 +3,27 @@
   "skills": {
     "tavily-search": {
       "version": "1.0.0",
-      "installedAt": 1773061749357
+      "installedAt": 1773234650328
     },
     "summarize": {
       "version": "1.0.0",
-      "installedAt": 1773061751434
+      "installedAt": 1773234656091
     },
     "agent-browser": {
       "version": "0.2.0",
-      "installedAt": 1773061753521
+      "installedAt": 1773234659763
     },
     "find-skills": {
       "version": "0.1.0",
-      "installedAt": 1773061757609
+      "installedAt": 1773234662343
     },
     "github": {
       "version": "1.0.0",
-      "installedAt": 1773061762542
+      "installedAt": 1773234666236
     },
     "obsidian": {
       "version": "1.0.0",
-      "installedAt": 1773061767068
+      "installedAt": 1773234668329
     },
     "notion": {
       "version": "1.0.0",
@@ -31,7 +31,7 @@
     },
     "weather": {
       "version": "1.0.0",
-      "installedAt": 1773061770994
+      "installedAt": 1773234671036
     },
     "gaodemapskill": {
       "version": "1.0.0",
@@ -67,7 +67,7 @@
     },
     "x-twitter": {
       "version": "2.3.1",
-      "installedAt": 1772455562837
+      "installedAt": 1773131495443
     },
     "nano-banana-pro": {
       "version": "1.0.1",
@@ -84,6 +84,14 @@
     "twitterapi-io": {
       "version": "3.2.0",
       "installedAt": 1773066404418
+    },
+    "x-twitter-by-altf1be": {
+      "version": "1.0.2",
+      "installedAt": 1773132614133
+    },
+    "tushare-data": {
+      "version": "1.0.7",
+      "installedAt": 1773183520587
     }
   }
 }

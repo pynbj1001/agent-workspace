@@ -222,5 +222,15 @@
     "worker_assignment_id": null,
     "applied_lessons": [],
     "hub_lessons": []
+  },
+  "last_solidify": {
+    "run_id": "run_1773067774883",
+    "at": "2026-03-09T14:58:51.313Z",
+    "event_id": "evt_1773068331313",
+    "capsule_id": null,
+    "outcome": {
+      "status": "failed",
+      "score": 0.2
+    }
   }
 }

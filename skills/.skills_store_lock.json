@@ -60,6 +60,24 @@
       "zip_url": "http://lightmake.site/api/v1/download?slug=twitterapi-io",
       "source": "skillhub",
       "version": "3.2.0"
+    },
+    "x-twitter": {
+      "name": "x-twitter",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=x-twitter",
+      "source": "skillhub",
+      "version": "2.3.1"
+    },
+    "x-twitter-by-altf1be": {
+      "name": "x-twitter-by-altf1be",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=x-twitter-by-altf1be",
+      "source": "skillhub",
+      "version": "1.0.2"
+    },
+    "tushare-data": {
+      "name": "Tushare",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=tushare-data",
+      "source": "skillhub",
+      "version": "1.0.7"
     }
   }
 }

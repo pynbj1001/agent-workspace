@@ -8,7 +8,23 @@
     "risk_tolerance": 0.4,
     "obedience": 0.85
   },
-  "stats": {},
-  "history": [],
-  "updated_at": "2026-03-09T14:49:34.879Z"
+  "stats": {
+    "rigor=0.7|creativity=0.3|verbosity=0.3|risk_tolerance=0.4|obedience=0.9": {
+      "success": 0,
+      "fail": 1,
+      "avg_score": 0.2,
+      "n": 1,
+      "updated_at": "2026-03-09T14:58:51.728Z"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-03-09T14:58:51.728Z",
+      "key": "rigor=0.7|creativity=0.3|verbosity=0.3|risk_tolerance=0.4|obedience=0.9",
+      "outcome": "failed",
+      "score": 0.2,
+      "notes": "event:evt_1773068331313"
+    }
+  ],
+  "updated_at": "2026-03-09T14:58:51.728Z"
 }

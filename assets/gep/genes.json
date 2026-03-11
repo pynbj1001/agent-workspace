@@ -66,6 +66,54 @@
       "validation": [
         "node scripts/validate-modules.js ./src/evolve ./src/gep/prompt"
       ]
+    },
+    {
+      "type": "Gene",
+      "schema_version": "1.6.0",
+      "id": "gene_auto_7f294d19",
+      "category": "optimize",
+      "signals_match": [
+        "repeated_tool_usage:exec"
+      ],
+      "preconditions": [
+        "signals_key == repeated_tool_usage:exec"
+      ],
+      "strategy": [
+        "Extract structured signals from logs and user instructions",
+        "Select an existing Gene by signals match (no improvisation)",
+        "Estimate blast radius (files, lines) before editing and record it",
+        "Apply smallest reversible patch",
+        "Validate using declared validation steps; rollback on failure",
+        "Solidify knowledge: append EvolutionEvent, update Gene/Capsule store"
+      ],
+      "constraints": {
+        "max_files": 12,
+        "forbidden_paths": [
+          ".git",
+          "node_modules",
+          "skills/feishu-evolver-wrapper",
+          "skills/feishu-common",
+          "skills/feishu-post",
+          "skills/feishu-card",
+          "skills/feishu-doc",
+          "skills/skill-tools",
+          "skills/clawhub",
+          "skills/clawhub-batch-undelete",
+          "skills/git-sync"
+        ]
+      },
+      "validation": [
+        "node scripts/validate-modules.js ./src/gep/solidify"
+      ],
+      "epigenetic_marks": [
+        {
+          "context": "linux/x64/v22.22.0",
+          "boost": -0.1,
+          "reason": "failure_in_environment",
+          "created_at": "2026-03-09T14:58:51.727Z"
+        }
+      ],
+      "asset_id": "sha256:7055f537aeec4a6e530b9c91739d80cdf78365ebc16af3afa56ad0a3fb2d1af9"
     }
   ]
 }

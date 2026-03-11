@@ -9,6 +9,14 @@ description: This skill should be used when the user asks for news updates, dail
 
 Fetch and summarize news from trusted international sources via RSS feeds.
 
+## Trigger Words (触发词)
+
+Use this skill when user requests:
+- **Chinese**: 国际新闻、国外新闻、海外新闻、英文新闻、翻译新闻、世界新闻、全球新闻
+- **English**: news updates, daily briefings, what's happening, world news, global news, international news, BBC, Reuters, NPR, Al Jazeera
+
+## RSS Sources
+
 ## RSS Feeds
 
 ### BBC (Primary)

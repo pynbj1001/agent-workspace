@@ -8,6 +8,7 @@ metadata:
     command-dispatch: tool
     command-tool: exec
     command-arg-mode: raw
+trigger_words: 知乎热榜、微博热搜、豆瓣热门、每日新闻、晨报、热门推荐、热搜榜
 ---
 
 # 每日新闻晨报技能

@@ -9,6 +9,7 @@ metadata:
     command-dispatch: tool
     command-tool: exec
     command-arg-mode: raw
+trigger_words: 百度新闻、谷歌新闻、每日新闻、热门新闻头条、今日要闻
 ---
 
 # Daily News Skill

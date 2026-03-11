@@ -42,6 +42,11 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 ### Web Search
 
 - **Brave Search API Key:** `BSAjqZcdDPRh1pKvQVv9IVkKsNJ0tHE`
+
+### 金融数据 API
+
+- **Tushare Token:** `29f93840c170c060fd284e7ef8f1a217bf3dbea38235f74a8a540f92` (⚠️ 需省着用)
+- **Financial Datasets API:** `83ee6af2-836c-4eb8-8d3d-83e2c5c97074` (⚠️ 需省着用)
   - 用于：web_search 工具、新闻获取、实时数据查询
   - 配置方式：Gateway 环境变量或 openclaw configure
   - 重要性：⚠️ **关键凭证** - Day1Global Skills 重度依赖

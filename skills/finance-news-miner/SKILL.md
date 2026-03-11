@@ -2,6 +2,7 @@
 name: finance-news-miner
 description: 通过新闻挖掘识别热门投资板块和个股。从财经新闻中提取涨幅信息，分析板块热度，挖掘强势个股。纯新闻驱动，不依赖行情数据接口。
 user-invocable: true
+trigger_words: 热门板块、强势个股、板块热度、什么板块涨了、哪个行业好、热门概念、资金流向、投资热点、涨幅榜
 ---
 
 # Finance News Miner - 财经新闻挖矿技能
