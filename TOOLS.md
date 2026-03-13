@@ -154,3 +154,12 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 ---
 
 Add whatever helps you do your job. This is your cheat sheet.
+
+## AI 技能
+
+### ai-zero-info-gap
+- 路径: `/root/.openclaw/workspace/skills/ai-zero-info-gap/`
+- 功能: 追踪全球 AI 圈顶级账号，实时获取 OpenAI、DeepSeek、Anthropic、Google DeepMind 等最新动态
+- 账号数: 45 个 (17 机构 + 28 个人)
+- 使用场景: AI 资讯日报、每周动态总结、特定账号追踪
+
