@@ -615,6 +615,48 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## 🔄 知识同步机制 (Knowledge Sync)
+
+### 触发条件
+以下情况必须同步到中央知识库：
+
+| 触发条件 | 同步内容 | 目标文件 |
+|---------|---------|---------|
+| 新技能创建完成 | 技能路径、功能描述 | AGENTS.md 技能矩阵 |
+| 用户新偏好/原则 | 偏好内容 | MEMORY.md |
+| 新投资框架/分析模型 | 框架内容 | MEMORY.md |
+| 重要决策 | 决策内容、原因、适用场景 | MEMORY.md |
+| 重大错误/教训 | 错误描述、解决方案 | MEMORY.md 或 self-improving/ |
+| 新工具配置 | 工具名、API key 位置 | TOOLS.md |
+
+### 同步流程
+
+```
+任务完成 → 判断是否需要同步 → 是 → 更新目标文件 → git commit
+                                                      ↓
+                                                   可选：通知其他 Agent
+```
+
+### 同步检查清单（session 结束前）
+
+- [ ] 是否有新决策需要记录？
+- [ ] 是否有新技能需要添加到矩阵？
+- [ ] 是否有用户新偏好？
+- [ ] 是否有重要教训？
+- [ ] → 有任何一项 → 立即同步
+
+### 自动同步示例
+
+```markdown
+# 同步日志 (SYNC_LOG.md)
+
+## 2026-03-15
+- [12:10] 总指挥: 创建 AGENTS_HANDBOOK.md → 同步完成
+- [12:15] 总指挥: 更新 MEMORY.md (添加核心经验) → 同步完成
+```
+
+---
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.

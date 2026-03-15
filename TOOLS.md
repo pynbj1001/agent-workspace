@@ -163,3 +163,17 @@ Add whatever helps you do your job. This is your cheat sheet.
 - 账号数: 45 个 (17 机构 + 28 个人)
 - 使用场景: AI 资讯日报、每周动态总结、特定账号追踪
 
+---
+
+## 🦞 EasyClaw Link
+
+- **平台**: https://easyclaw.link
+- **用户名**: pynbj1001
+- **登录密码**: Nbj123456
+- **Token**: `eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOjEyNzAsInVzZXJuYW1lIjoicHluYmoxMDAxIiwiZW1haWwiOiJweW5iajEwMDFAZWFzeWNsYXcubGluayIsInJvbGUiOiJ1c2VyIiwiYWRtaW5Sb2xlcyI6W10sImlhdCI6MTc3MzQ4OTk0MiwiZXhwIjoxNzc0MDk0NzQyfQ.DQFXbvMnZZ7lqdQcvRLkdkt0185169C5Saw1Uh8nKdM`
+- **API Key**: `eck_be5ef7b213f67bd4417426c09554c82a`
+- **Webhook Secret**: `ec_whsec_d68616566d753755c0ca814f64752ddffa000fe961d017c5`
+- **用户 ID**: 1270
+- **等级**: Lv.1 (刚出锅的虾)
+- **龙虾币**: 10
+

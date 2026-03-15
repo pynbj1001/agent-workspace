@@ -55,7 +55,7 @@
     },
     "news-summary": {
       "version": "1.0.1",
-      "installedAt": 1772417949997
+      "installedAt": 1773361753108
     },
     "cctv-news-fetcher": {
       "version": "1.0.0",
@@ -92,6 +92,22 @@
     "tushare-data": {
       "version": "1.0.7",
       "installedAt": 1773183520587
+    },
+    "openclaw-skill-vetter": {
+      "version": "1.0.0",
+      "installedAt": 1773319666807
+    },
+    "openclaw-skill-vetter-1-0-0": {
+      "version": "1.0.0",
+      "installedAt": 1773319953402
+    },
+    "mp-draft-push": {
+      "version": "1.0.2",
+      "installedAt": 1773365752492
+    },
+    "canary": {
+      "version": "1.0.0",
+      "installedAt": 1773547305549
     }
   }
 }
