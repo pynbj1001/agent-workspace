@@ -157,6 +157,35 @@ Don't ask permission. Just do it.
 
 ### 标准协作工作流
 
+#### 工作流 0：复杂任务启动流程（必须先执行）
+
+```
+0. 【plan-ceo-review】Step 0: 核心范围挑战
+   ├── 这是正确的问题吗？用户真正想要什么？
+   ├── 现有代码能复用吗？每个子问题对应什么能力？
+   ├── 理想状态是什么？（当前 → 本次 → 12个月理想）
+   ├── 选择模式：
+   │   ├── EXPANSION（绿地项目，找 10 星产品）
+   │   ├── SELECTIVE（功能迭代，默认）
+   │   ├── HOLD（Bug 修复，严格审核）
+   │   └── REDUCTION（超过 15 文件，削减范围）
+   └── 输出到 findings.md
+
+1. 【plan-ceo-review】Step 2: 7 维审核
+   ├── Architecture（架构、数据流、状态机）
+   ├── Error & Rescue（错误救援图）
+   ├── Security（安全威胁模型）
+   ├── Edge Cases（边界情况表）
+   ├── Testing（测试矩阵）
+   ├── Observability（可观测性清单）
+   └── Deployment（部署计划）
+
+2. 【plan-ceo-review】Step 3: 决策记录
+   ├── 接受的范围 → 写入 findings.md
+   ├── 延期的范围 → 写入 TODOS.md
+   └── NOT in scope → 记录原因
+```
+
 #### 工作流 1：新闻分析 → 公众号发布
 
 ```
