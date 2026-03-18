@@ -147,6 +147,7 @@ Don't ask permission. Just do it.
 
 | 技能 | 输入 | 输出 | 更新文件 | 使用频率 |
 |------|------|------|---------|---------|
+| **plan-ceo-review** | 任务/方案 | 审核报告 | findings.md | ⭐⭐⭐⭐⭐ |
 | **buy-side-news-analyst** | 新闻 | 分析结果 | findings.md | ⭐⭐⭐⭐⭐ |
 | **finance-news-miner** | 新闻源 | 板块数据 | findings.md | ⭐⭐⭐⭐ |
 | **baoyu-post-to-wechat** | findings.md | 公众号文章 | progress.md | ⭐⭐⭐⭐⭐ |
@@ -159,6 +160,11 @@ Don't ask permission. Just do it.
 #### 工作流 1：新闻分析 → 公众号发布
 
 ```
+0. 【plan-ceo-review】审核任务范围
+   → 选择模式：SELECTIVE（功能迭代）
+   → 核心问题：用户想要什么？现有能力？
+   → 输出到 findings.md
+
 1. 【planning-with-files】创建规划文件
    → task_plan.md: 定义任务阶段
    → findings.md: 初始化结构

@@ -5,6 +5,40 @@
   WHEN: Create this FIRST, before starting any work. Update after each phase completes.
 -->
 
+## Step 0: Core Scope Challenge
+<!-- 
+  FROM: plan-ceo-review
+  WHAT: Before planning, challenge the problem itself.
+  WHY: Solving the wrong problem is worse than solving the right problem poorly.
+-->
+
+### Is this the right problem?
+- User really wants: [What user actually needs]
+- Simpler path: [Is there a more direct solution?]
+
+### Existing code leverage?
+- Similar functionality exists: [Where?]
+- Can reuse: [What modules/patterns?]
+
+### Ideal state trajectory
+```
+Current: [Where we are now]
+    ↓
+This Task: [What this task achieves]
+    ↓
+12-Month Ideal: [Long-term vision]
+```
+
+### Mode Selection
+| Mode | When | Selected |
+|------|------|----------|
+| EXPANSION | Greenfield, 10-star product | |
+| SELECTIVE | Feature iteration (default) | ✓ |
+| HOLD | Bug fix, refactor | |
+| REDUCTION | Over 15 files | |
+
+---
+
 ## Goal
 <!-- 
   WHAT: One clear sentence describing what you're trying to achieve.

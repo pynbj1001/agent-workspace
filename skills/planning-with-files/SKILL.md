@@ -27,6 +27,12 @@ Work like Manus: Use persistent markdown files as your "working memory on disk."
 
 Before ANY complex task:
 
+0. **Step 0: Core Scope Challenge** (from plan-ceo-review)
+   - Is this the right problem? What does user really want?
+   - Can existing code be reused?
+   - What's the ideal state? (Current → This Task → 12-Month Ideal)
+   - Choose mode: EXPANSION / SELECTIVE / HOLD / REDUCTION
+
 1. **Create `task_plan.md`** — Use [templates/task_plan.md](templates/task_plan.md) as reference
 2. **Create `findings.md`** — Use [templates/findings.md](templates/findings.md) as reference
 3. **Create `progress.md`** — Use [templates/progress.md](templates/progress.md) as reference
@@ -34,6 +40,15 @@ Before ANY complex task:
 5. **Update after each phase** — Mark complete, log errors
 
 > **Note:** Planning files go in your project root, not the skill installation folder.
+
+## Four Planning Modes
+
+| Mode | When to Use | Behavior |
+|------|-------------|----------|
+| **EXPANSION** | Greenfield projects | Push scope up, find 10-star product |
+| **SELECTIVE** | Feature iterations (default) | Hold scope + offer expansion options |
+| **HOLD** | Bug fixes, refactors | Strict review, no scope changes |
+| **REDUCTION** | Over 15 files touched | Cut to minimum viable |
 
 ## The Core Pattern
 
